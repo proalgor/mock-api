@@ -20,8 +20,17 @@
     {"id": 18, "title": "Faith", "author": "Leo J. Trese","description":" Creation is an essential element in the Christian understanding of existence, and one which is not fully explicable by unaided reason. The notion and truth of creation has many direct implications for the role of mankind\n","price": 0.00, "image": "http://moodcraft.com/img/scepter-1052_600x.jpg","tag":"spiritualReading"}
   ],
   "users":[
-    {"id": 1, "username": "test@criterion.com", "password": "come", "name": "Test Abubakar", "phone": +2349000213459, "token":"eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ"},
+    {"id": 1, "username": "test@criterion.com", "password": "come", "name": "Test Abubakar", "phone": "+2349000213459", "token":"eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ"},
     {"id": 2, "username": "christian@criterion.com", "password": "testing", "name": "Christian Miracle", "phone": "+2348010213459", "token":"SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"}
+  ],
+  "userBooks" = [
+    {"owner":"test@criterion.com", "book_id": 1 },
+    {"owner":"test@criterion.com", "book_id": 2 },
+    {"owner":"test@criterion.com", "book_id": 3 }
+  ],
+  "orderHistory" = [
+    {"id": 1, "user": "test@criterion.com", "book": "Creation Theology", "date": "14/01/2019", "bookPrice": 2000.00, "status":"success"},
+    {"id": 2, "user": "test@criterion.com", "book": "The Forge", "date": "12/01/2019", "bookPrice": 0.00, "status":"failed"},
   ],
   "profile": {
     "name": "typicode"
