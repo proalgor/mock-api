@@ -23,15 +23,12 @@
     {"id": 1, "username": "test@criterion.com", "password": "come", "name": "Test Abubakar", "phone": "+2349000213459", "token":"eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ"},
     {"id": 2, "username": "christian@criterion.com", "password": "testing", "name": "Christian Miracle", "phone": "+2348010213459", "token":"SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"}
   ],
-  "userBooks":[
+  "user_books":[
     {"owner":"test@criterion.com", "book_id": 1 },
     {"owner":"test@criterion.com", "book_id": 2 },
     {"owner":"test@criterion.com", "book_id": 3 }
   ],
-  "orderHistory":[
-    {"id": 1, "user": "test@criterion.com", "book": "Creation Theology", "date": "14/01/2019", "bookPrice": 2000.00, "status":"success"},
-    {"id": 2, "user": "test@criterion.com", "book": "The Forge", "date": "12/01/2019", "bookPrice": 0.00, "status":"failed"},
-  ],
+  
   "profile": {
     "name": "typicode"
   }
