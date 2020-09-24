@@ -23,12 +23,11 @@
     {"id": 1, "username": "test@criterion.com", "password": "come", "name": "Test Abubakar", "phone": "+2349000213459", "token":"eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ"},
     {"id": 2, "username": "christian@criterion.com", "password": "testing", "name": "Christian Miracle", "phone": "+2348010213459", "token":"SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"}
   ],
-  "userbooks":[
+  "user_books":[
     {"owner":"test@criterion.com", "book_id": 1 },
     {"owner":"test@criterion.com", "book_id": 2 },
     {"owner":"test@criterion.com", "book_id": 3 }
   ],
-  
   "profile": {
     "name": "typicode"
   }
