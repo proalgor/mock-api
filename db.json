@@ -1,5 +1,5 @@
 {
-	"books" = [
+	"books" : [
 	    {"id": 1, "title": "interior freedom", "author": "Jose Morales","description":"Creation is an essential element in the Christian understanding of existence, and one which is not fully explicable by unaided reason. ", "price": 500.00, "image": "http://moodcraft.com/img/Interior-Freedom1024x1485_600x.jpg", "tag":"prayer"},
 	    {"id": 2, "title": "From Temperament to Character","author": "Alexandre Havard", "description":"In this case, logging out for us means clearing out the user’s token and redirecting them. If you need to perform other Vuex state changes, listen to this AUTH_LOGOUT action and commit.", "price": 0.00, "image": "http://moodcraft.com/img/From_Temperament_to_Character_600x.png", "tag":"spiritualReading"},
 	    {"id": 3, "title": "Called to Life", "author": "Jacques Philippe", "description":"In this case, logging out for us means clearing out the user’s token and redirecting them. If you need to perform other Vuex state changes, listen to this AUTH_LOGOUT action and commit.","price": 0.00, "image": "http://moodcraft.com/img/scepter-1041_600x.jpg", "tag":"spiritualReading"},
@@ -19,17 +19,16 @@
 	    {"id": 17, "title": "The yep", "author": "Josemaria Escriva","description":"In this case, logging out for us means clearing out the user’s token and redirecting them. If you need to perform other Vuex state changes, listen to this AUTH_LOGOUT action and commit.","price": 0.00, "image": "http://moodcraft.com/img/scepter-1060_600x.jpg","tag":"prayer"},
 	    {"id": 18, "title": "Faith", "author": "Leo J. Trese","description":" Creation is an essential element in the Christian understanding of existence, and one which is not fully explicable by unaided reason. The notion and truth of creation has many direct implications for the role of mankind\n","price": 0.00, "image": "http://moodcraft.com/img/scepter-1052_600x.jpg","tag":"spiritualReading"}
 ],
-"user"=[
+"user":[
 	{"id": 1, "username": "test@criterion.com", "password": "come", "name": "Test Abubakar", "phone": +2349000213459, "token":'eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ'},
-    {"id": 2, "username": "christian@criterion.com", "password": "testing", "name": "Christian Miracle", "phone": +2348010213459, "token":'SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c'},
-
-	],
-	"userBooks" = [
+    	{"id": 2, "username": "christian@criterion.com", "password": "testing", "name": "Christian Miracle", "phone": +2348010213459, "token":'SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c'},
+],
+"userBooks" :[
     {"owner":"test@criterion.com", "id": 1, "title": "interior freedom", "price": 500.00, "image": "http://moodcraft.com/img/Interior-Freedom1024x1485_600x.jpg", "status":"reading"},
     {"owner":"test@criterion.com", "id": 2, "title": "From Temperament to Character", "price": 0.00, "image": "http://moodcraft.com/img/From_Temperament_to_Character_600x.png", "status":"reading"},
     {"owner":"test@criterion.com", "id": 3, "title": "Called to Life", "price": 0.00, "image": "http://moodcraft.com/img/scepter-1041_600x.jpg", "status":"completed"}
 ],
-"orderHistory" = [
+"orderHistory" :[
     {"id": 1, "user": "test@criterion.com", "book": "Creation Theology", "date": "14/01/2019", "bookPrice": 2000.00, "status":"success"},
     {"id": 2, "user": "test@criterion.com", "book": "The Forge", "date": "12/01/2019", "bookPrice": 0.00, "status":"failed"},
 ]
