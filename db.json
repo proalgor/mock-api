@@ -32,7 +32,10 @@
     {"id": 1, "user": "test@criterion.com", "book": "Creation Theology", "date": "14/01/2019", "bookPrice": 2000.00, "status":"success"},
     {"id": 2, "user": "test@criterion.com", "book": "The Forge", "date": "12/01/2019", "bookPrice": 0.00, "status":"failed"}
   ],
-  "profile": {
-    "name": "typicode"
+  "location": {
+    "address": "tracendatl layout enugu 004",
+    "state":"California",
+    "city":"Enugu",
+    "zip":"403993"
   }
 }
